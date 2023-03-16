@@ -1,13 +1,7 @@
 
-.coustom-td{
-    
-    padding-top: 50px;
-    padding-bottom: 10px;
-    margin: 10px;
-}
-
 body{
     margin: auto;
+    background-color: rgb(219, 216, 206);
 }
 
 .content {
@@ -16,10 +10,25 @@ body{
     background-color: white;
 }
 .table-content {
-   
-    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-columns: 1.5fr 1.5fr 1fr;
     border-collapse: collapse;
     width: 100%;
+}
+
+.table-content2 {
+    grid-template-columns: 1fr 1fr 2fr;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.td-size25{
+    width: 25%;
+}
+.td-size2{
+    width: 2%;
+}
+.td-size65{
+    width: 65%;
 }
 
 td {
@@ -27,23 +36,109 @@ td {
     text-align: center;
 }
 
+
+
+
+
 .text-align-center{
 text-align: center;
 }
 
-.format-profile-picture{
-    width: 300px;
-    height: 200px;
-    border-radius: 15px 100px 15px 100px;
+.text-align-left{
+    text-align: left !important;
+}
+.left50{
+    padding-left: 50px;
 }
 
+
+
+
+
+
+
+.format-profile-picture{
+    width: 210px;
+    height: 200px;
+    border-radius: 30px 100px 30px 100px;
+}
+.horse-size{
+    width: 100px;
+    height: 100px;
+}
 .format-icons{
     width: 20px;
     height: 20px;
 }
 
 .coustom-line{
-    border: 2px solid green;
+    border: 2px solid rgb(61, 36, 13);
     border-radius: 10px;
-    width: 1300px;
+    width: 1500px;
 }
+
+.coustom-line-title{
+    border: 2px solid rgb(61, 36, 13);
+    border-radius: 10px;
+    width: 1000px;
+    text-align: right;
+}
+.coustom-line-title2{
+    border: 2px solid rgb(219, 197, 179);
+    border-radius: 10px;
+    width: 300px;
+    text-align: right !important;
+}
+.vertical-line1{
+    border-left: 6px solid rgb(61, 36, 13);
+    height: 250px;
+}
+.vertical-line2{
+    border-left: 6px solid rgb(61, 36, 13);
+    height: 300px;
+}
+
+
+
+
+
+
+.textbox-color{
+    background-color: rgb(204, 176, 149);
+    width: 180px;
+    height: 20px;
+    border-radius: 10px;
+    padding-left: 20px;
+}
+.textbox-color2{
+    background-color: rgb(204, 176, 149);
+    width: 400px;
+    height: 20px;
+    border-radius: 10px;
+    padding-left: 20px;
+}
+
+.brown-color{
+    background-color: rgb(106, 66, 31);
+}
+p,h3{
+    display: inline;
+    color: rgb(219, 197, 179);
+}
+
+
+.motion-demo {
+    offset-path: path("M-525,80 C550,-480 100,0 1000,80");
+    animation: move 8000ms linear infinite;
+    width: 45px;
+    height: 45px;
+  }
+  
+  @keyframes move {
+    0% {
+      offset-distance: 0%;
+    }
+    100% {
+      offset-distance: 100%;
+    }
+  }
