@@ -5,18 +5,17 @@ body{
 }
 
 .content {
-    max-width: 1600px;
+    max-width: auto;
     margin: auto;
     background-color: white;
 }
 .table-content {
-    grid-template-columns: 1.5fr 1.5fr 1fr;
+    margin: auto;
     border-collapse: collapse;
     width: 100%;
 }
 
 .table-content2 {
-    grid-template-columns: 1fr 1fr 2fr;
     border-collapse: collapse;
     width: 100%;
 }
@@ -25,7 +24,7 @@ body{
     width: 25%;
 }
 .td-size2{
-    width: 2%;
+    width: 10%;
 }
 .td-size65{
     width: 65%;
@@ -38,14 +37,13 @@ td {
 
 
 
-
-
 .text-align-center{
 text-align: center;
 }
 
 .text-align-left{
     text-align: left !important;
+    padding: 5px;
 }
 .left50{
     padding-left: 50px;
@@ -100,15 +98,13 @@ text-align: center;
 
 
 
-
-
-
 .textbox-color{
     background-color: rgb(204, 176, 149);
     width: 180px;
     height: 20px;
     border-radius: 10px;
     padding-left: 20px;
+    margin-left: 10px;
 }
 .textbox-color2{
     background-color: rgb(204, 176, 149);
@@ -124,6 +120,9 @@ text-align: center;
 p,h3{
     display: inline;
     color: rgb(219, 197, 179);
+}
+.font-color{
+    color: antiquewhite;
 }
 
 
