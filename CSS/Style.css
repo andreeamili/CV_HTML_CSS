@@ -1,8 +1,10 @@
 
 body{
     margin: auto;
+    background-image: url(https://i.pinimg.com/564x/f5/3a/3e/f53a3ed583a6b9538a4e2a2e467f50ea.jpg);
     background-color: rgb(219, 216, 206);
 }
+
 .table-content {
     margin: auto;
     margin-top: 20px;
@@ -116,6 +118,13 @@ text-align: center;
 .all{
     padding-left: 50px;
 }
+.flower-align{
+    
+    width: 400px;
+    height: 340px;
+    text-align: left;
+    padding-top: 10px;
+}
 
 
 
@@ -192,3 +201,4 @@ p,h3{
       offset-distance: 100%;
     }
   }
+ 
