@@ -48,8 +48,8 @@ padding-right: 270px ;
 
 .text-align-left{
     text-align: left !important;
-    padding: 5px;
 }
+
 .left50{
     padding-left: 50px;
 }
@@ -263,7 +263,9 @@ p,h3{
         transform: translate(200px)
      }
 }
-
+.shadow {
+    box-shadow: inset 0 0 40px #301c03;
+  }
 .animate-bear2{
     margin: 0 auto;
    animation-name: test2;
