@@ -3,7 +3,8 @@ body{
     margin: auto;
     background-image: url(https://i.pinimg.com/564x/02/f7/af/02f7af655900451c3e842d89a437715f.jpg);
     background-position: center;
-    background-color: rgb(219, 216, 206);
+    width: 1300px;
+    height: 2750px;
 }
 
 .table-content {
@@ -42,7 +43,7 @@ td {
 
 
 .text-align-center{
-text-align: center;
+padding-right: 270px ;
 }
 
 .text-align-left{
@@ -53,28 +54,15 @@ text-align: center;
     padding-left: 50px;
 }
 
-
-
-
-
-
-
+.padding-right-profile{
+    padding-left: 200px;
+}
 
 .format-profile-picture{
     width: 210px;
     height: 200px;
-    border-radius: 30px 100px 30px 100px;
+    border-radius: 40px 100px 30px 100px;
 }
-.horse-size{
-    width: 150px;
-    height: 150px;
-    filter: invert(100%);
-}
-.format-icons{
-    width: 20px;
-    height: 20px;
-}
-
 .coustom-line{
     border: 2px solid rgb(61, 36, 13);
     border-radius: 10px;
@@ -145,6 +133,17 @@ text-align: center;
     width: 50px;
     height: 100px;
     
+}
+.img-right-up{
+    float: right;
+    margin: 0 0 0 0px;
+    width: 170px;
+    height: 190px;
+}
+.img-left-down{
+    float: left;
+    width:200px;
+    height: 100px;
 }
 .img-left{
     float: left;
@@ -233,17 +232,91 @@ p,h3{
 .font-color{
     color: antiquewhite;
 }
+
 .white-color
 {
     background-color: aliceblue;
 }
+.animate-bear{
+    margin: 0 auto;
+   animation-name: test;
+   animation-duration: 10s;
+   animation-fill-mode: forwards;
+   transition: border-radius 0.25s ease;
+   animation-iteration-count: infinite;
+  }
+  @keyframes test {
+    0% {
+        transform: translate(200px)
+     }
+     25%{
+        transform: translate(100px)
+     }
 
+     50%{
+        transform: translate(0px)
+     }
+     75%{
+        transform: translate(100px)
+     }
+     100%{
+        transform: translate(200px)
+     }
+}
 
+.animate-bear2{
+    margin: 0 auto;
+   animation-name: test2;
+   animation-duration: 10s;
+   animation-fill-mode: forwards;
+   transition: border-radius 0.25s ease;
+   animation-iteration-count: infinite;
+  }
+  @keyframes test2 {
+    0% {
+        transform: translate(0px,0px)
+     }
+     25% {
+        transform: translate(0px,50px)
+     }
+
+     50%{
+        transform: translate(0px,100px)
+     }
+     75%{
+        transform: translate(0px,50px)
+     }
+     100%{
+        transform: translate(0px,0px)
+     }
+}
+
+.format-icons {
+    width: 20px;
+    height: 20px;
+    animation: shake 4s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
 .motion-demo {
-    offset-path: path("M-450,100 C550,-500 10,0 700,80");
+    offset-path: path("M20, 10 C850,-600 800,150 1500,30");
     animation: move 8000ms linear infinite;
-    width: 45px;
-    height: 45px;
+    width: 100px;
+    height: 100px;
+    float: left;
   }
   
   @keyframes move {
